@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="20dp"
+    >
+    <EditText
+        android:id="@+id/et_test"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="输入密码"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        />
+    <com.wzb.imagecheckbox.ImageCheckBox
+        android:id="@+id/icb_test"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        app:checked="false"
+        app:checked_src="@drawable/login_psd_open"
+        app:un_checked_src="@drawable/login_psd_close"
+        />
+
+</LinearLayout>
